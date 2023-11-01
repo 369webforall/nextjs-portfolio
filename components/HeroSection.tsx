@@ -1,7 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
 import Container from './ui/container';
-import { Button } from './ui/button';
 import Experties from './Expertise';
 import Contact from './Contact';
 
@@ -31,8 +30,8 @@ const HeroSection = () => {
             </p>
             <div className="mt-8 space-y-4">
               <p>
-                I'm a passionate developer with a focus on creating interactive
-                and user-friendly web applications.
+                I&aposm a passionate developer with a focus on creating
+                interactive and user-friendly web applications.
               </p>
             </div>
             <div>
