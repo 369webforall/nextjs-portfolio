@@ -13,13 +13,11 @@ const HeroSection = () => {
             <Image
               src="/brham.jpg"
               alt="Hero Image"
+              className="rounded-full"
+              priority
               width={500}
               height={300}
-              className="rounded-full"
             />
-            <div>
-              <Contact />
-            </div>
           </div>
           <div className="md:w-1/2">
             <h1 className="text-2xl md:text-4xl font-bold">

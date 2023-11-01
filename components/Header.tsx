@@ -49,6 +49,10 @@ const Header = () => {
               </Button>
             ))}
           </nav>
+          <div className="flex flex-col bg-slate-300 rounded-sm p-2">
+            <p>Phone:+977-9849429828</p>
+            <p>Email:brham1980@gmail.com</p>
+          </div>
           <Button
             variant="ghost"
             size="icon"
