@@ -30,7 +30,7 @@ const HeroSection = () => {
             </p>
             <div className="mt-8 space-y-4">
               <p>
-                I&#39;m a passionate developer with a focus on creating
+                I&apos;m a passionate developer with a focus on creating
                 interactive and user friendly web applications.
               </p>
             </div>
