@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Container from './ui/container';
 import Experties from './Expertise';
-import Contact from './Contact';
 
 const HeroSection = () => {
   return (
