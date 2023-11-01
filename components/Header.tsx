@@ -9,20 +9,19 @@ import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
 const links = [
   { id: 1, href: '/', label: 'Home' },
   { id: 2, href: '/about', label: 'About' },
-  { id: 3, href: '/contact', label: 'Contact' },
 ];
 const Header = () => {
   const { theme, setTheme } = useTheme();
   return (
     <header className="sm:flex  sm:justify-between py-3 px-4 border-b">
       <Container>
-        <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between max-w-full">
+        <div className="relative px-2 flex h-16 items-center justify-between max-w-full">
           <div className="flex items-center">
             <Sheet>
               <SheetTrigger>
-                <Menu className="h-6 w-6 md:hidden"></Menu>
+                <Menu className="h-6 w-6 md:hidden mr-6" />
               </SheetTrigger>
-              <SheetContent side="left" className="w-[300px] sm:w-[400px]">
+              <SheetContent side="right" className="w-[300px] sm:w-[400px]">
                 <nav className="flex gap-4 flex-col">
                   {links.map((link) => (
                     <Button variant="ghost" asChild key={link.id}>
@@ -38,7 +37,9 @@ const Header = () => {
               </SheetContent>
             </Sheet>
             <Link href="/" className="text-sm font-medium transition-colors">
-              <h1 className="text-xl font-semibold">My PortFolio</h1>
+              <h1 className="text-2xl md:text-4xl font-bold text-teal-400">
+                Brham Dev Mahato
+              </h1>
             </Link>
           </div>
           <nav className="mx-6 space-x-4 lg:space-x-6 hidden md:flex items-center">

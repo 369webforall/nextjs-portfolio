@@ -3,6 +3,7 @@ import { Inter as FontSans } from 'next/font/google';
 import './globals.css';
 import { cn } from '@/lib/utils';
 import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 import { ThemeProvider } from '@/components/ui/theme-provider';
 export const fontSans = FontSans({
   subsets: ['latin'],
@@ -28,8 +29,11 @@ export default function RootLayout({
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <Header />
-          <main>{children}</main>
+          <div className="grid grid-rows-layout h-screen">
+            <Header />
+            <main>{children}</main>
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>
