@@ -20,15 +20,15 @@ const HeroSection = () => {
           </div>
           <div className="md:w-1/2">
             <h1 className="text-2xl md:text-4xl font-bold">
-              Full Stack Web Developer
+              Full Stack Web Developer / Teacher
             </h1>
             <p className="mt-4 text-lg md:text-xl text-teal-600">
               Nextjs/React Developer
             </p>
             <div className="mt-8 space-y-4">
               <p>
-                I&apos;m a passionate developer with a focus on creating
-                interactive and user friendly web applications.
+                Im a passionate developer with a focus on creating interactive
+                and user friendly web applications.
               </p>
             </div>
             <div>

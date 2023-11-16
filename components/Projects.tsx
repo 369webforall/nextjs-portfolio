@@ -6,19 +6,20 @@ import { BsGithub, BsArrowUpRightSquare } from 'react-icons/bs';
 
 const projects = [
   {
-    name: 'Thankful Thoughts',
+    name: 'Issue Tracker',
     description:
-      'ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.',
-    image: '/thankfulthoughts.png',
-    github: 'https://github.com/hqasmei/thankful-thoughts',
-    link: 'https://thankfulthoughts.io/',
+      'FullStack application built with Nextjs, typescript, mongodb, prisma, tailwindcss, radix ui, NextAuth',
+    image: '/screen_issue.png',
+    github: 'https://github.com/369webforall/issue-tracker',
+    link: 'https://issue-tracker-gilt-three.vercel.app/',
   },
   {
-    name: 'PlatoIO',
-    description: 'PlatoIO is a to do list app that built using the PERN stack.',
-    image: '/platoio.png',
-    github: 'https://github.com/hqasmei/platoio',
-    link: 'https://platoio.com/register',
+    name: 'Amazon clone',
+    description:
+      'Amazon is e-commerce app that built using the HTML, CSS and JavaScript.',
+    image: '/amazon_screen.jpg',
+    github: 'https://github.com/369webforall/online-store',
+    link: 'https://harmonious-stroopwafel-567dbc.netlify.app/',
   },
   {
     name: 'Newsweek.com Clone',
