@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Container from './ui/container';
 import Experties from './Expertise';
+import { Button } from './ui/button';
 
 const HeroSection = () => {
   return (
@@ -22,9 +23,20 @@ const HeroSection = () => {
             <h1 className="text-2xl md:text-4xl font-bold">
               Full Stack Web Developer / Teacher
             </h1>
-            <p className="mt-4 text-lg md:text-xl text-teal-600">
-              Nextjs/React Developer
-            </p>
+
+            <div className="flex gap-4 my-4 items-center ">
+              <p className=" text-lg md:text-xl text-teal-600">
+                Nextjs/React Developer
+              </p>
+              <Button size="sm">
+                <a
+                  href="https://drive.google.com/file/d/1R8I_KX0k-S1jhSCa6dqmaqxVYX8pdihP/view?usp=sharing"
+                  target="_blank"
+                >
+                  Download Resume
+                </a>
+              </Button>
+            </div>
             <div className="mt-8 space-y-4">
               <p>
                 Im a passionate developer with a focus on creating interactive
