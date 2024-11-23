@@ -1,24 +1,28 @@
 // pages/about.js
 
-import React from 'react';
-import Container from '@/components/ui/container';
+import React from "react";
+import Container from "@/components/ui/container";
 const skills = [
-  { skill: 'HTML' },
-  { skill: 'CSS' },
-  { skill: 'JavaScript' },
-  { skill: 'TypeScript' },
-  { skill: 'Nodejs' },
-  { skill: 'React' },
-  { skill: 'Redux' },
-  { skill: 'Next.js' },
-  { skill: 'Tailwind CSS' },
-  { skill: 'Radix UI' },
-  { skill: 'Shadcn' },
-  { skill: 'Git' },
-  { skill: 'GitHub' },
-  { skill: 'Mongodb' },
-  { skill: 'Mysql' },
-  { skill: 'Prisma client' },
+  { skill: "HTML" },
+  { skill: "CSS" },
+  { skill: "JavaScript" },
+  { skill: "TypeScript" },
+  { skill: "Nodejs" },
+  { skill: "React" },
+  { skill: "Redux" },
+  { skill: "Next.js" },
+  { skill: "Tailwind CSS" },
+  { skill: "Radix UI" },
+  { skill: "Shadcn" },
+  { skill: "Git, Github" },
+  { skill: "Mongodb" },
+  { skill: "Postgresql" },
+  { skill: "Prisma client" },
+  { skill: "Monorepos, Turborepo, lints" },
+  { skill: "Devops" },
+  { skill: "Docker" },
+  { skill: "CI/CD in github" },
+  { skill: "Containerization" },
 ];
 const About = () => {
   return (
@@ -42,10 +46,10 @@ const About = () => {
               experience.
             </p>
             <p className="my-2">
-              I believe that you should{' '}
+              I believe that you should{" "}
               <span className="font-bold text-teal-500">
                 never stop growing
-              </span>{' '}
+              </span>{" "}
               and that&#39;s what I strive to do, I have a passion for
               technology and a desire to always push the limits of what is
               possible. I am excited to see where my career takes me and am

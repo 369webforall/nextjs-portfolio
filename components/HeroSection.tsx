@@ -1,8 +1,8 @@
-import React from 'react';
-import Image from 'next/image';
-import Container from './ui/container';
-import Experties from './Expertise';
-import { Button } from './ui/button';
+import React from "react";
+import Image from "next/image";
+import Container from "./ui/container";
+import Experties from "./Expertise";
+import { Button } from "./ui/button";
 
 const HeroSection = () => {
   return (
@@ -30,7 +30,7 @@ const HeroSection = () => {
               </p>
               <Button size="sm">
                 <a
-                  href="https://drive.google.com/file/d/1R8I_KX0k-S1jhSCa6dqmaqxVYX8pdihP/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ppouOqcd4mR8doVFwMIvrQx4U16E-S3H/view?usp=drive_link"
                   target="_blank"
                 >
                   Download Resume
