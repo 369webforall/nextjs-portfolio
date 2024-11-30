@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center text-center md:text-left">
           <div className="md:w-1/2 mb-4">
             <Image
-              src="/brham.jpg"
+              src="/dev.jpg"
               alt="Hero Image"
               className="rounded-full"
               priority
