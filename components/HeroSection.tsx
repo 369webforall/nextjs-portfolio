@@ -30,7 +30,7 @@ const HeroSection = () => {
               </p>
               <Button size="sm">
                 <a
-                  href="https://drive.google.com/file/d/1ppouOqcd4mR8doVFwMIvrQx4U16E-S3H/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/11msJkI8GvcyGrAbC5nkdTmmngxTW4Jcx/view?usp=drive_link"
                   target="_blank"
                 >
                   Download Resume
